@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+h1{
+	font-family:sans-serif;
+	background-color: rgb(192, 192, 192);
+	font-size: 20pt;
+	text-align:center;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+.login-user {
+	background: #c0c0c0;
+	color: #000;
+	border-radius: 10px;
+	}
+ul{
+	list-style-type: none;
+	margin:0;
+	margin-bottom:10px;
+	list-style-position:outside;
+	padding: 15px;
+	overflow: hidden;
+	background-color: #000000;
+	border-radius: 10px;
+}
+li{
+	float: left;
+	
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active){
+	background-color: #111;
+}
+li button[type=submit]{
+
+	margin-left:90px;
+	margin-right:80px;
+	font-size: 22px;
+
+
+}
